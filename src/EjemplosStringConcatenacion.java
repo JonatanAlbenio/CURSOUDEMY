@@ -1,7 +1,7 @@
 public class EjemplosStringConcatenacion {
     public static void main(String[] args) {
 
-       String curso ="Programacion Java";
+       String curso ="Programación Java";
        String profesor ="Jonatan Medina";
 
        String detalle = curso+ "con el profesor " + profesor;
