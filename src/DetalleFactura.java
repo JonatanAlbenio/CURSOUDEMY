@@ -38,7 +38,7 @@ public class DetalleFactura {
        // System.out.println("total con el 19% = " + total);
 
         String mensaje ="La factura "+nombreFactura+"  tiene un total bruto de :" +total+" con un impuesto de  19 % " +
-                "y el monto despues de impuesto es de :" + total2;
+                "y el monto después de impuesto es de :" + total2;
 
 
         System.out.println( mensaje);
