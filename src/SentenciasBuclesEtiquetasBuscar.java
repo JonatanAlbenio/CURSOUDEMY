@@ -8,12 +8,13 @@ public class SentenciasBuclesEtiquetasBuscar {
         int maxPalabra = palabra.length();
          int max = frase.length();
          int cantidad =0;
+         buscar:
          for (int i =0; i<max;i++){
-
+            int k=i;
              for (int j =0;j<maxPalabra;j++){
 
-                 if(frase.charAt(i)!= palabra.charAt(j)){
-                     continue;
+                 if(frase.charAt(k++)!= palabra.charAt(j)){
+                     continue buscar;
                  }
 
              }
@@ -23,7 +24,7 @@ public class SentenciasBuclesEtiquetasBuscar {
 
 
          }
-        System.out.println("Encontrado  = " + cantidad+ " veces character 't' en la frase");
+        System.out.println("Encontrado  = " + cantidad+ " veces character"+frase+" en la frase");
 
 
     }
