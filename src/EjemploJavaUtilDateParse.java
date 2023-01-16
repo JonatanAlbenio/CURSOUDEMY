@@ -46,7 +46,8 @@ public class EjemploJavaUtilDateParse {
 
 
         } catch (ParseException e) {
-            throw new RuntimeException(e);
+            System.out.println(" errorrrrrrr " +e);
+            main(args);
 
         }
 

@@ -23,6 +23,11 @@ public class EjemplosStringTestRendimientoConcat {
         System.out.println(fin-inicio);
 
 
+        System.gc();
+
+
+
+
 
 
     }

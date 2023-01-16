@@ -31,7 +31,9 @@ public class EjemploAsignarPropiedadesDeSistemas {
 
 
         } catch (FileNotFoundException e) {
-            System.out.println("No existe el archivo "+e);
+            System.err.println("No existe el archivo "+e);
+            System.exit(1);
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
